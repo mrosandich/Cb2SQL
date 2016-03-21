@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NoHeaders>true</NoHeaders>
+  <TabDel>true</TabDel>
+  <CommaDel>false</CommaDel>
+  <UseKey>true</UseKey>
+  <DontWrapValues>false</DontWrapValues>
+  <TrimValues>false</TrimValues>
+  <MsSqlEsc>true</MsSqlEsc>
+  <MySQlEsc>false</MySQlEsc>
+  <NoEsc>false</NoEsc>
+  <CustomSQL> insert into  [onPoint].[web].[calendar] (calender_id,title,location,start_time,end_time)values('1',!c0!,!c1!,!c2!,!c3!);</CustomSQL>
+</FormState>
