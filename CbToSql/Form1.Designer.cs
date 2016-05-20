@@ -53,6 +53,8 @@
             this.buttonPullClipBoard = new System.Windows.Forms.Button();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
@@ -61,7 +63,6 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.myDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
             this.splitContainer3.Panel1.SuspendLayout();
@@ -344,6 +345,7 @@
             // 
             // splitContainer4.Panel1
             // 
+            this.splitContainer4.Panel1.Controls.Add(this.radioButton6);
             this.splitContainer4.Panel1.Controls.Add(this.button6);
             this.splitContainer4.Panel1.Controls.Add(this.buttonPullClipBoard);
             this.splitContainer4.Panel1.Controls.Add(this.panel1);
@@ -369,6 +371,28 @@
             this.splitContainer4.Size = new System.Drawing.Size(662, 368);
             this.splitContainer4.SplitterDistance = 214;
             this.splitContainer4.TabIndex = 23;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(312, 34);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(78, 17);
+            this.radioButton6.TabIndex = 23;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "First Space";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(568, 35);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Help";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel1
             // 
@@ -447,16 +471,6 @@
             // 
             this.openFileDialog1.Filter = "XML Files|*.xml";
             // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(568, 35);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Help";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -529,6 +543,7 @@
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.RadioButton radioButton6;
     }
 }
 

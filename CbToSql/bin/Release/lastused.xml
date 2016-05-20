@@ -4,11 +4,11 @@
   <TabDel>true</TabDel>
   <CommaDel>false</CommaDel>
   <FirstSpace>false</FirstSpace>
-  <UseKey>false</UseKey>
-  <DontWrapValues>true</DontWrapValues>
-  <TrimValues>true</TrimValues>
-  <MsSqlEsc>false</MsSqlEsc>
+  <UseKey>true</UseKey>
+  <DontWrapValues>false</DontWrapValues>
+  <TrimValues>false</TrimValues>
+  <MsSqlEsc>true</MsSqlEsc>
   <MySQlEsc>false</MySQlEsc>
-  <NoEsc>true</NoEsc>
-  <CustomSQL>| !c0! | !c1! | !c2!| !c3! |!c4! |  !c5! |  !c6! |  !c7! |   !c8! |   !c9! |</CustomSQL>
+  <NoEsc>false</NoEsc>
+  <CustomSQL> insert into  [onPoint].[web].[calendar] (calender_id,title,location,start_time,end_time)values('1',!c0!,!c1!,!c2!,!c3!);</CustomSQL>
 </FormState>

@@ -7,12 +7,12 @@ D:\GitHub\CbToSql\CbToSql\bin\Debug\CbToSql.exe
 D:\GitHub\CbToSql\CbToSql\bin\Debug\CbToSql.pdb
 D:\GitHub\CbToSql\CbToSql\obj\Debug\CbToSql.exe
 D:\GitHub\CbToSql\CbToSql\obj\Debug\CbToSql.pdb
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\bin\Debug\CbToSql.exe.config
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.exe
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.pdb
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\bin\Debug\CbToSql.exe
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\bin\Debug\CbToSql.pdb
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.csprojResolveAssemblyReference.cache
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.Form1.resources
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.Properties.Resources.resources
-C:\Users\MELLSDevBox\Documents\GitHub\Cb2SQL\CbToSql\obj\Debug\CbToSql.csproj.GenerateResource.Cache
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Debug\CbToSql.exe.config
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.exe
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.pdb
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Debug\CbToSql.exe
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Debug\CbToSql.pdb
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.csprojResolveAssemblyReference.cache
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.Form1.resources
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.Properties.Resources.resources
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Debug\CbToSql.csproj.GenerateResource.Cache

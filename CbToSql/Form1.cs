@@ -43,6 +43,7 @@ namespace CbToSql
             DataObject o = (DataObject)Clipboard.GetDataObject();
 
             char[] Sepr = new char[] { '\t' };
+            int MaxSplit = 10000;
             if (radioButton1.Checked == true)
             {
                 Sepr = new char[] { '\t' };
@@ -50,6 +51,12 @@ namespace CbToSql
             if (radioButton2.Checked == true)
             {
                 Sepr = new char[] { ',' };
+            }
+
+            if (radioButton6.Checked == true)
+            {
+                Sepr = new char[] { ' ' };
+                MaxSplit = 2;
             }
 
             if (o.GetDataPresent(DataFormats.Text))
@@ -65,7 +72,7 @@ namespace CbToSql
                 foreach (string pastedRow in pastedRows)
                 {
 
-                    string[] pastedRowCells = pastedRow.Split(Sepr);
+                    string[] pastedRowCells = pastedRow.Split(Sepr, MaxSplit);
 
                     // build first set of rows
                     if (!columnsAdded)
@@ -145,7 +152,14 @@ namespace CbToSql
                 else
                 {
 
-                    valIn = "''";
+                    if (checkBox3.Checked == true)
+                    {
+                        valIn = "";
+                    }
+                    else
+                    {
+                        valIn = "''";
+                    }
 
                 }
             }
@@ -193,10 +207,11 @@ namespace CbToSql
             if (radioButton1.Checked == true)
             {
                 radioButton2.Checked = false;
+                radioButton6.Checked = false;
             }
             else
             {
-                radioButton2.Checked = true;
+                //radioButton1.Checked = true;
             }
         }
 
@@ -205,10 +220,11 @@ namespace CbToSql
             if (radioButton2.Checked == true)
             {
                 radioButton1.Checked = false;
+                radioButton6.Checked = false;
             }
             else
             {
-                radioButton1.Checked = true;
+                //radioButton2.Checked = true;
             }
         }
 
@@ -256,6 +272,7 @@ namespace CbToSql
             checkBox2.Checked = state.NoHeaders;
             radioButton1.Checked = state.TabDel;
             radioButton2.Checked = state.CommaDel;
+            radioButton6.Checked = state.FirstSpace;
             checkBox1.Checked = state.UseKey;
             checkBox3.Checked = state.DontWrapValues;
             checkBox4.Checked = state.TrimValues;
@@ -273,6 +290,7 @@ namespace CbToSql
                 state.NoHeaders = checkBox2.Checked;
                 state.TabDel = radioButton1.Checked;
                 state.CommaDel = radioButton2.Checked;
+                state.FirstSpace = radioButton6.Checked;
                 state.UseKey = checkBox1.Checked;
                 state.DontWrapValues = checkBox3.Checked;
                 state.TrimValues = checkBox4.Checked;
@@ -290,6 +308,19 @@ namespace CbToSql
         {
             System.Diagnostics.Process.Start("http://www.ourace.com/158-clipboard-to-sql");
         }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton6.Checked == true)
+            {
+                radioButton1.Checked = false;
+                radioButton2.Checked = false;
+            }
+            else
+            {
+               // radioButton6.Checked = true;
+            }
+        }
     }//end class
 
 
@@ -299,6 +330,7 @@ namespace CbToSql
 
         public bool TabDel { get; set; }
         public bool CommaDel { get; set; }
+        public bool FirstSpace { get; set; }
 
         public bool UseKey { get; set; }
         public bool DontWrapValues { get; set; }

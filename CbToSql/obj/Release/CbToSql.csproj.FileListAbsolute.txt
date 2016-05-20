@@ -1,0 +1,9 @@
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Release\CbToSql.exe.config
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Release\CbToSql.exe
+D:\projects - svn\custom software tools\CbToSql\CbToSql\bin\Release\CbToSql.pdb
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.csprojResolveAssemblyReference.cache
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.Form1.resources
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.Properties.Resources.resources
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.csproj.GenerateResource.Cache
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.exe
+D:\projects - svn\custom software tools\CbToSql\CbToSql\obj\Release\CbToSql.pdb
